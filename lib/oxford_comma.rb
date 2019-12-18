@@ -4,7 +4,7 @@ def oxford_comma(array)
   elsif array.size == 1
     return array.join
   elsif array.size <= 3
-  newarray = array[array.size - 1, array.size]
+  newarray = array.pop
     return 
   end
 end
